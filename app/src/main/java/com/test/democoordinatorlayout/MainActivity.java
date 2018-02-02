@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Button button4 = findViewById(R.id.button4);
         Button button5 = findViewById(R.id.button5);
         Button button6 = findViewById(R.id.button6);
-        Button button7 = findViewById(R.id.button7);
+        Button buttonSeven = findViewById(R.id.button7);
 
         button1.setOnClickListener(clickListener);
         button2.setOnClickListener(clickListener);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(clickListener);
         button5.setOnClickListener(clickListener);
         button6.setOnClickListener(clickListener);
-        button7.setOnClickListener(clickListener);
+        buttonSeven.setOnClickListener(clickListener);
     }
 
     private final View.OnClickListener clickListener = new View.OnClickListener() {
